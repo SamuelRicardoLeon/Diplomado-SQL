@@ -145,8 +145,20 @@ CREATE TABLE Ventas.Detalle_Ventas
 	Precio_Venta NUMERIC
 )
 
+INSERT INTO Ventas.Detalle_Ventas (Id_Detalle, Id_Venta, Id_Libros, Libros_Vendidos, Precio_Venta)
+VALUES
+(1514, 1, 12009,5,200000),
+(1515, 10, 12008,7,800000),
+(1517, 5, 12000,5,600000),
+(1519, 6, 12002,5,700000),
+(1456, 4, 12006,5,600000),
+(1981, 7, 12007,5,550000),
+(1124, 9,12001,5,460000),
+(1357, 2, 12004,5,280000),
+(1347, 3, 12003,5,900000),
+(1765, 8, 12005,5,640000)
 
-
+SELECT * FROM Ventas.Detalle_Ventas
 
 --- Restricciones Faltantes
 
